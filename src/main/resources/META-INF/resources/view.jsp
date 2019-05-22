@@ -2,7 +2,7 @@
 
 <div id="<portlet:namespace />-1">
 	<h2>{{message}}</h2>
-	<RicercaCliente :msg="titleRicerca"></RicercaCliente>
+	<ricerca-cliente :msg="titleRicerca"></ricerca-cliente>
 </div>
 
 <aui:script require="<%= mainRequire %>">

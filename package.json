@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"@supergose/custom-ricerca-cliente": "^0.1.0",
+		"@supergose/custom-ricerca-cliente": "^0.3.0",
 		"vue": "2.4.4"
 	},
 	"devDependencies": {
