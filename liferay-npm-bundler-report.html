@@ -1,0 +1,437 @@
+
+		<!DOCTYPE html>
+		<html>
+			<head>
+				<meta charset="utf-8" />
+				<title>Report of liferay-npm-bundler execution</title>
+				<style>
+					body, h1, h2, h3, p, li {
+						font-family: sans-serif;
+					}
+					
+					body, p, th, td, li {
+						font-size: 10pt;
+					}
+					
+					h1 {
+						font-size: 16pt;
+						margin: 1em 0 .5em 0;
+					}
+					
+					h2 {
+						font-size: 13pt;
+						margin: 1em 0 .5em 0;
+					}
+					
+					h3 {
+						font-size: 11pt;
+						margin: 1em 0 .5em 0;
+					}
+					
+					table {
+						margin: 0 0 .5em 0;
+					}
+					
+					tr:nth-child(odd) {
+						background-color: #F6F6F6;
+					}
+					
+					th {
+						background-color: #F0F0F0;
+						text-align: left;
+					}
+					
+					th, td {
+						padding: .1em 0;
+						vertical-align: top;
+					}
+					
+					td.info, td.warn, td.error {
+						background: green;
+						border-radius: 4px;
+						color: white;
+						text-align: center;
+						vertical-align: middle;
+						width: 1px;
+						white-space: nowrap;
+					}
+
+					td.warn {
+						background: orange;
+					}
+
+					td.error {
+						background: red;
+					}
+					
+					td.source {
+						white-space: nowrap;
+					}
+
+					ul {
+						padding-left: 1em;
+						margin: 0 0 .5em 0;
+					}
+					
+					p {
+						margin: 0 0 .5em 0;
+					}
+				</style>
+				<script id="report" type="application/json">
+					{"_executionDate":"2019-05-21T14:25:47.769Z","_versionsInfo":{"liferay-npm-bundler":"2.6.2","liferay-npm-bundler-plugin-resolve-linked-dependencies":"2.6.2","liferay-npm-bundler-plugin-namespace-packages":"2.6.2","liferay-npm-bundler-plugin-inject-imports-dependencies":"2.6.2","babel-preset-liferay-standard":"2.6.2","liferay-npm-bundler-plugin-replace-browser-modules":"2.6.2","liferay-npm-bundler-plugin-inject-peer-dependencies":"2.6.2"},"_packages":{"/":{"id":"/","process":{"copy":{},"pre":{"resolve-linked-dependencies":{"plugin":{"name":"resolve-linked-dependencies","config":{}},"logger":{"_msgs":[]}}},"babel":{"config":{"presets":["liferay-standard"],"babelrc":false,"only":"**/*","sourceMaps":true},"files":{"lib/index.es.js":{"logger":{"_msgs":[{"source":"normalize-requires","level":"info","things":["Normalized",2,"requires"]},{"source":"wrap-modules-amd","level":"info","things":["Detected dependencies:","'portlet-vue-fancy$vue/dist/vue.common', '@portlet-vue-fancy$supergose/custom-ricerca-cliente'"]},{"source":"name-amd-modules","level":"info","things":["Set module name to 'portlet-vue-fancy@1.0.0/lib/index.es'"]},{"source":"namespace-modules","level":"info","things":["Namespaced",0,"define() names,",0,"define() dependencies,","and",2,"require() names"]}]}}}},"post":{"namespace-packages":{"plugin":{"name":"namespace-packages","config":{}},"logger":{"_msgs":[{"source":"namespace-packages","level":"info","things":["Namespaced",2,"dependencies"]}]}},"inject-imports-dependencies":{"plugin":{"name":"inject-imports-dependencies","config":{}},"logger":{"_msgs":[]}}}},"name":"portlet-vue-fancy","version":"1.0.0"},"@supergose/custom-ricerca-cliente@0.1.0":{"id":"@supergose/custom-ricerca-cliente@0.1.0","process":{"copy":{},"pre":{},"babel":{"config":{},"files":{}},"post":{}},"name":"@supergose/custom-ricerca-cliente","version":"0.1.0"},"core-js@2.6.6":{"id":"core-js@2.6.6","process":{"copy":{},"pre":{},"babel":{"config":{},"files":{}},"post":{}},"name":"core-js","version":"2.6.6"},"vue@2.6.10":{"id":"vue@2.6.10","process":{"copy":{},"pre":{},"babel":{"config":{},"files":{}},"post":{}},"name":"vue","version":"2.6.10"},"vue@2.4.4":{"id":"vue@2.4.4","process":{"copy":{},"pre":{},"babel":{"config":{},"files":{}},"post":{}},"name":"vue","version":"2.4.4"}},"_warnings":[],"_executionTime":[0,283977200]}
+				</script>
+				<script>
+					window.report = JSON.parse(
+						document.getElementById("report").innerHTML
+					);
+				</script>
+			</head>
+			<body>
+				<h1>Report of liferay-npm-bundler execution</h1>
+				
+			<table>
+				<tr><td>Executed at:</td><td>Tue, 21 May 2019 14:25:47 GMT</td></tr>
+<tr><td>Execution took:</td><td>284ms</td></tr>
+			</table>
+		
+				
+				
+		<h2>Bundler environment versions</h2>
+		
+			<table>
+				<tr><th>Package</th>
+<th>Version</th></tr>
+				<tr>
+					<td>liferay-npm-bundler</td>
+					<td>2.6.2</td>
+				</tr>
+<tr>
+					<td>liferay-npm-bundler-plugin-resolve-linked-dependencies</td>
+					<td>2.6.2</td>
+				</tr>
+<tr>
+					<td>liferay-npm-bundler-plugin-namespace-packages</td>
+					<td>2.6.2</td>
+				</tr>
+<tr>
+					<td>liferay-npm-bundler-plugin-inject-imports-dependencies</td>
+					<td>2.6.2</td>
+				</tr>
+<tr>
+					<td>babel-preset-liferay-standard</td>
+					<td>2.6.2</td>
+				</tr>
+<tr>
+					<td>liferay-npm-bundler-plugin-replace-browser-modules</td>
+					<td>2.6.2</td>
+				</tr>
+<tr>
+					<td>liferay-npm-bundler-plugin-inject-peer-dependencies</td>
+					<td>2.6.2</td>
+				</tr>
+			</table>
+		
+	
+				
+		<h2>Bundled packages</h2>
+		
+			<table>
+				<tr><th>Package</th>
+<th>Version</th>
+<th>Copied files</th>
+<th>Excluded files</th>
+<th>Linked to</th></tr>
+				<tr>
+						<td>portlet-vue-fancy</td>
+						<td>1.0.0</td>
+						<td></td>
+						<td>
+							
+						</td>
+						<td></td>
+					</tr>
+<tr>
+						<td>@supergose/custom-ricerca-cliente</td>
+						<td>0.1.0</td>
+						<td></td>
+						<td>
+							
+						</td>
+						<td></td>
+					</tr>
+<tr>
+						<td>core-js</td>
+						<td>2.6.6</td>
+						<td></td>
+						<td>
+							
+						</td>
+						<td></td>
+					</tr>
+<tr>
+						<td>vue</td>
+						<td>2.4.4</td>
+						<td></td>
+						<td>
+							
+						</td>
+						<td></td>
+					</tr>
+<tr>
+						<td>vue</td>
+						<td>2.6.10</td>
+						<td></td>
+						<td>
+							
+						</td>
+						<td></td>
+					</tr>
+			</table>
+		
+	
+				
+		<h2>Summary of package transformations</h2>
+		
+			<table>
+				<tr><th>Package</th>
+<th>Version</th>
+<th>Copy phase</th>
+<th>Pre-babel phase</th>
+<th>Babel phase</th>
+<th>Post-babel phase</th></tr>
+				<tr>
+						<td>portlet-vue-fancy</td>
+						<td>1.0.0</td>
+						<td>
+							<a href="#/-bundler">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#/-bundler">
+								1 plugins applied
+							</a>
+						</td>
+						<td>
+							<a href="#/-babel">
+								1 files processed
+							</a>
+						</td>
+						<td>
+							<a href="#/-bundler">
+								2 plugins applied
+							</a>
+						</td>
+					</tr>
+<tr>
+						<td>@supergose/custom-ricerca-cliente</td>
+						<td>0.1.0</td>
+						<td>
+							<a href="#@supergose/custom-ricerca-cliente@0.1.0-bundler">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#@supergose/custom-ricerca-cliente@0.1.0-bundler">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#@supergose/custom-ricerca-cliente@0.1.0-babel">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#@supergose/custom-ricerca-cliente@0.1.0-bundler">
+								
+							</a>
+						</td>
+					</tr>
+<tr>
+						<td>core-js</td>
+						<td>2.6.6</td>
+						<td>
+							<a href="#core-js@2.6.6-bundler">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#core-js@2.6.6-bundler">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#core-js@2.6.6-babel">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#core-js@2.6.6-bundler">
+								
+							</a>
+						</td>
+					</tr>
+<tr>
+						<td>vue</td>
+						<td>2.4.4</td>
+						<td>
+							<a href="#vue@2.4.4-bundler">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#vue@2.4.4-bundler">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#vue@2.4.4-babel">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#vue@2.4.4-bundler">
+								
+							</a>
+						</td>
+					</tr>
+<tr>
+						<td>vue</td>
+						<td>2.6.10</td>
+						<td>
+							<a href="#vue@2.6.10-bundler">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#vue@2.6.10-bundler">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#vue@2.6.10-babel">
+								
+							</a>
+						</td>
+						<td>
+							<a href="#vue@2.6.10-bundler">
+								
+							</a>
+						</td>
+					</tr>
+			</table>
+		
+	
+				
+		<h2>Details of bundler transformations</h2>
+		
+		<h3>
+							<a name="/-bundler">
+								portlet-vue-fancy@1.0.0
+							</a>
+						</h3>
+		
+			<table>
+				<tr><th>Pre-phase plugin</th>
+<th>Config</th>
+<th>Message</th>
+<th></th></tr>
+				<tr>
+					<td>resolve-linked-dependencies</td> <td>{}</td>
+					
+					<td></td>
+				</tr>
+			</table>
+		
+
+			<table>
+				<tr><th>Post-phase plugin</th>
+<th>Config</th>
+<th>Message</th>
+<th></th></tr>
+				<tr>
+					<td>inject-imports-dependencies</td> <td>{}</td>
+					
+					<td></td>
+				</tr>
+			</table>
+		
+
+			<table>
+				<tr><th>Post-phase plugin</th>
+<th>Config</th>
+<th>Message</th>
+<th></th></tr>
+				<tr>
+					<td>namespace-packages</td> <td>{}</td>
+					
+					<td class="info">INFO</td>
+					<td>Namespaced 2 dependencies</td>
+				</tr>
+			</table>
+		
+	
+
+
+
+
+	
+				
+		<h2>Details of Babel transformations</h2>
+		
+		<h3>
+							<a name="/-babel">
+								portlet-vue-fancy@1.0.0
+							</a>
+						</h3>
+		<p>
+							Configuration: 
+							{"presets":["liferay-standard"],"babelrc":false,"only":"**/*","sourceMaps":true}
+						</p>
+
+			<table>
+				<tr><th>File</th>
+<th>Log source</th>
+<th>Message</th>
+<th></th></tr>
+				<tr>
+					<td>lib/index.es.js</td>
+					<td class="source">normalize-requires</td>
+					<td class="info">INFO</td>
+					<td>Normalized 2 requires</td>
+				</tr>
+<tr>
+						<td></td>
+						<td class="source">wrap-modules-amd</td>
+						<td class="info">
+							INFO
+						</td>
+						<td>Detected dependencies: 'portlet-vue-fancy$vue/dist/vue.common', '@portlet-vue-fancy$supergose/custom-ricerca-cliente'</td>
+					</tr>
+<tr>
+						<td></td>
+						<td class="source">name-amd-modules</td>
+						<td class="info">
+							INFO
+						</td>
+						<td>Set module name to 'portlet-vue-fancy@1.0.0/lib/index.es'</td>
+					</tr>
+<tr>
+						<td></td>
+						<td class="source">namespace-modules</td>
+						<td class="info">
+							INFO
+						</td>
+						<td>Namespaced 0 define() names, 0 define() dependencies, and 2 require() names</td>
+					</tr>
+			</table>
+		
+	
+
+
+
+
+	
+			</body>
+		</html>
+	

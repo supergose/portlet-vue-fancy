@@ -1,0 +1,5 @@
+Bundle-Name: portlet-vue-fancy
+Bundle-SymbolicName: portlet.vue.fancy
+Bundle-Version: 1.0.0
+Export-Package: portlet.vue.fancy.constants
+Web-ContextPath: /portlet-vue-fancy
